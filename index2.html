@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>xSv4 | Free & Paid VPNs</title>
+  <link rel="icon" href="your-logo.png" type="image/png">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+      background-color: #121212; /* Dark background color */
+      color: #ffffff; /* Text color */
+      font-family: 'Arial', sans-serif;
+      overflow: hidden; /* Disable scrolling */
+    }
+
+
+    /* Style to hide the vertical scrollbar */
+    body::-webkit-scrollbar {
+      width: 0;
+    }
+
+    /* Style to hide the horizontal scrollbar in Firefox */
+    body {
+      scrollbar-width: none;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #2a2a2a;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    nav img {
+      height: 50px;
+    }
+
+    nav div {
+      display: flex;
+      margin-left: auto; /* Adjust the margin as needed */
+    }
+
+
+    nav a {
+      color: #ffffff; /* Text color for navigation links */
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      box-shadow: 0 0 10px rgba(150, 0, 150, 0.6);
+      overflow: hidden; /* Hide any potential overflow */
+      width: 80%; /* Adjusted width to leave space for particles */
+      max-width: 800px; /* Set a maximum width for the main container if needed */
+      position: relative; /* Add position relative to the main container */
+      z-index: 1; /* Set a higher z-index to make it appear above the particles */
+      margin-top: 20px; /* Increased margin to create more space between nav and content */
+    }
+
+    .inner-container {
+      width: 100%; /* Adjust the width to take the full width of the main container */
+      max-width: 400px; /* Set a maximum width for inner containers if needed */
+      margin: 0 0 20px 0; /* Adjust the spacing between containers */
+      background-color: #2a2a2a; /* Different color for inner containers */
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(150, 0, 150, 0.6);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .download-link {
+      display: inline-block;
+      padding: 10px;
+      background-color: rgba(150, 0, 150, 0.6);
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-link:hover {
+      background-color: rgba(150, 0, 150, 1);
+    }
+
+    canvas {
+      position: absolute;
+      z-index: 0; /* Change z-index to 0 to position the particles below the content */
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <img src="your-logo.png" alt="Logo">
+    <div>
+      <a href="index1.html">Configs</a>
+      <a href="index2.html">VPNs</a>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <h1>Paid and Free VPNs</h1>
+
+    <div class="inner-container">
+      <h2>- Paid -</h2>
+      <p>Mysterium VPN</p>
+      <p>Mullvad VPN</p>
+      <p>HideMyAss (HMA)</p>
+      <p>Vypr VPN</p>
+      <p>Private Internet Access (PIA)</p>
+    </div>
+
+    <div class="inner-container">
+      <h2>- Free -</h2>
+      <p>Iphone Hotspot</p>
+      <p>VPNGate</p>
+    </div>
+
+    <!-- Add more inner containers as needed -->
+  </div>
+
+  <canvas id="particleCanvas"></canvas>
+
+  <script>
+    // Particle animation
+    const canvas = document.getElementById('particleCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const particles = [];
+
+    function createParticle() {
+      const x = Math.random() * canvas.width;
+      const y = Math.random() * canvas.height;
+
+      particles.push({
+        x,
+        y,
+        size: Math.random() * 5 + 2,
+        speedX: Math.random() * 3 - 1.5,
+        speedY: Math.random() * 3 - 1.5,
+        color: `rgba(150, 0, 150, ${Math.random()})`,
+      });
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].x += particles[i].speedX;
+        particles[i].y += particles[i].speedY;
+
+        if (particles[i].size > 0.2) {
+          ctx.fillStyle = particles[i].color;
+          ctx.beginPath();
+          ctx.arc(
+            particles[i].x,
+            particles[i].y,
+            particles[i].size,
+            0,
+            Math.PI * 2
+          );
+          ctx.fill();
+        }
+
+        particles[i].size *= 0.98;
+      }
+
+      removeDeadParticles();
+      requestAnimationFrame(animateParticles);
+    }
+
+    function removeDeadParticles() {
+      for (let i = particles.length - 1; i >= 0; i--) {
+        if (particles[i].size <= 0.2) {
+          particles.splice(i, 1);
+        }
+      }
+    }
+
+    function generateParticles() {
+      for (let i = 0; i < 5; i++) {
+        createParticle();
+      }
+    }
+
+    setInterval(generateParticles, 100); // Adjust the interval as needed
+
+    animateParticles();
+  </script>
+</body>
+
+</html>
