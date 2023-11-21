@@ -1,0 +1,2207 @@
+{
+  "modules": {
+    "AimAssist": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range": 50.0,
+        "Speed": 1.0,
+        "CompliSpeed": 1.0,
+        "FOV": 180.0,
+        "FaceCheck": false,
+        "MouseDown": true,
+        "AllowBreakBlock": false
+      }
+    },
+    "AirJump": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "AirSpoof": false
+      }
+    },
+    "Animations": {
+      "state": true,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "BlockingMode": "1.8",
+        "ShowTag": false,
+        "Reset": false,
+        "ItemPosX": 0.0,
+        "ItemPosY": 0.0,
+        "ItemPosZ": 0.0,
+        "ItemScale": 100,
+        "SwingSpeed": 1.0,
+        "Flux Swing": false,
+        "Block Animation": false,
+        "Use item while digging": false
+      }
+    },
+    "Annoy": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "YawMode": "Spin",
+        "PitchMode": "Down",
+        "spinSpeed": 20,
+        "SilentRotate": true
+      }
+    },
+    "AntiBot": {
+      "state": false,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Tab": true,
+        "TabMode": "Contains",
+        "EntityID": true,
+        "Color": false,
+        "LivingTime": false,
+        "LivingTimeTicks": 40,
+        "Ground": true,
+        "Air": false,
+        "InvalidGround": true,
+        "Swing": false,
+        "Health": false,
+        "Derp": true,
+        "WasInvisible": false,
+        "ValidName": true,
+        "HiddenName": false,
+        "Armor": false,
+        "Ping": false,
+        "NeedHit": false,
+        "NoClip": false,
+        "CzechMatrix": false,
+        "PingCheck": true,
+        "GamemodeCheck": true,
+        "ReusedEntityId": false,
+        "SpawnInCombat": false,
+        "DuplicateInWorld": false,
+        "DuplicateInTab": false,
+        "DuplicateCompareMode": "OnTime",
+        "FastDamage": false,
+        "FastDamageTicks": 5,
+        "RemoveFromWorld": false,
+        "Remove-Interval": 20,
+        "Debug": false,
+        "AlwaysInRadius": false,
+        "AlwaysInRadiusBlocks": 20.0,
+        "AlwaysInRadiusRemove": false,
+        "AlwaysInRadiusWithTicksCheck": false
+      }
+    },
+    "AntiExploit": {
+      "state": false,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Notify": false,
+        "LessGuardian": true,
+        "MaxArrowPerSecond": 100
+      }
+    },
+    "AntiFireBall": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "ShowFireBall": false,
+        "Radius": 45.0,
+        "Size": 10.0,
+        "HitFireBall": false,
+        "Swing": "Normal",
+        "Rotation": true
+      }
+    },
+    "AntiKnockback": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "X-Z": 0,
+        "Y": 0,
+        "OnlyGround": false,
+        "OnlyAir": false
+      }
+    },
+    "AntiStuck": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Flags": 5
+      }
+    },
+    "AntiVoid": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "TPBack",
+        "MaxFallDistance": 8.14,
+        "ResetMotion": false,
+        "BlinkStartFallDistance": 2.0,
+        "BlinkAutoScaffold": true,
+        "MotionFlag-MotionY": 1.0,
+        "OnlyVoid": true
+      }
+    },
+    "AuraFirend": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range": 3.5,
+        "AutoClear": false
+      }
+    },
+    "AuthBypass": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "RedeSky",
+        "Delay": 1500
+      }
+    },
+    "AutoBot": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "AutoSoup": true,
+        "AutoPot": true,
+        "AutoBow": true,
+        "Health": 15.0,
+        "Delay": 150,
+        "OpenInv": false,
+        "SimulateInventory": true,
+        "Bowl": "Drop",
+        "AutoPot-ThrowMode": "Up",
+        "AutoPot-Health": 15.0,
+        "AutoPot-Delay": 500,
+        "AutoPot-ThrowTick": 3,
+        "AutoPot-SelectSlot": -1,
+        "AutoPot-GroundDistance": 2.0,
+        "AutoPot-ThrowAngle": -45,
+        "AutoPot-OpenInv": false,
+        "AutoPot-SimulateInventory": true,
+        "AutoPot-Regen": true,
+        "AutoPot-Utility": true,
+        "AutoPot-NotCombat": true,
+        "AutoPot-OnGround": true,
+        "AutoBow-WaitForBowAimBot": true
+      }
+    },
+    "AutoLadder": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "YMotion": 0.15
+      }
+    },
+    "AutoLogin": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Register": "/register %p %p",
+        "Login": "/login %p",
+        "Password": "password",
+        "Delay": 1500,
+        "Title": true,
+        "Chat": true,
+        "ShowPassword": false
+      }
+    },
+    "AutoPlace": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Delay": 0.0,
+        "MouseDown": false,
+        "Up": false,
+        "Down": false,
+        "NoFly": false,
+        "Pitch": false,
+        "Pitch-MAX": 0,
+        "Pitch-MIN": 0
+      }
+    },
+    "AutoPlay": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Server": "RedeSky",
+        "Mode": "4v4v4v4",
+        "AutoStartAtLobby": true,
+        "ReplayWhenKicked": true,
+        "ShowGuiWhenFailed": true,
+        "JoinDelay": 3
+      }
+    },
+    "AutoTool": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "SwapBack": false
+      }
+    },
+    "AutoWeapon": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "OnlySword": false,
+        "SpoofItem": false,
+        "SpoofTicks": 10
+      }
+    },
+    "BedAura": {
+      "state": false,
+      "keybind": 48,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range": 5.0,
+        "Instant": false,
+        "Swing": false,
+        "onClick": false,
+        "noMove": false,
+        "ThroughWall": true,
+        "Surroundings": true,
+        "SpoofItem": false,
+        "RenderPos": false,
+        "RenderBed": true,
+        "HypixelRot": false
+      }
+    },
+    "Blink": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "OutGoing": true,
+        "Inbound": false,
+        "Pulse": false,
+        "PulseDelay": 1000
+      }
+    },
+    "BlockFinder": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Block": 1
+      }
+    },
+    "BlockOverlay": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Alpha": 100,
+        "LineWidth": 2.0,
+        "Info": false
+      }
+    },
+    "BoatExploit": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Boost",
+        "Speed": 0.3,
+        "HBoost": 2.0,
+        "VBoost": 2.0,
+        "MatrixTimerStart": 0.3,
+        "MatrixTimerAir": 0.5,
+        "LaunchRadius": 4.0,
+        "Delay": 200,
+        "AutoHit": true
+      }
+    },
+    "BowAimbot": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Silent": true,
+        "Predict": true,
+        "ThroughWalls": false,
+        "PredictSize": 2.0,
+        "Priority": "Direction",
+        "Mark": true
+      }
+    },
+    "BowJump": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "hypixelBypass": true,
+        "Boost": 4.25,
+        "Height": 0.42,
+        "Timer": 1.0,
+        "DelayBeforeArrowLaunch": 1,
+        "AutoDisable": true,
+        "RenderStatus": true
+      }
+    },
+    "Breadcrumbs": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Type": "Line",
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "Alpha": 255,
+        "Rainbow": false,
+        "Fade": true,
+        "DrawThePlayer": true,
+        "DrawTargets": true,
+        "FadeTime": 5,
+        "Precision": 4,
+        "LineWidth": 1,
+        "SphereScale": 0.6,
+        "OnlyThirdPerson": true
+      }
+    },
+    "CameraClip": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "Cape": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Style": "None"
+      }
+    },
+    "Chams": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Targets": true,
+        "Chests": true,
+        "Items": true,
+        "LocalPlayer": true,
+        "Legacy-Mode": false,
+        "Textured": false,
+        "Color": "Custom",
+        "Behind-Color": "Red",
+        "Red": 0,
+        "Green": 200,
+        "Blue": 0,
+        "Alpha": 255,
+        "Saturation": 1.0,
+        "Brightness": 1.0
+      }
+    },
+    "ChatFilter": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Null",
+        "Chance": 0.2,
+        "Pinyin-Fill": " ",
+        "MinUnicode": 1000,
+        "MaxUnicode": 20000
+      }
+    },
+    "ChatManager": {
+      "state": false,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "FontChat": false,
+        "Font": {
+          "fontName": "Nunito40",
+          "fontSize": 40
+        },
+        "ChatRect": false,
+        "NoChatLimit": true,
+        "ChatCombine": true,
+        "ChatAnimation": true
+      }
+    },
+    "ClickGUI": {
+      "state": false,
+      "keybind": 54,
+      "trigger": "TOGGLE",
+      "values": {
+        "Style": "LB+",
+        "Scale": 0.7,
+        "MaxElements": 15,
+        "Scroll": 20.0,
+        "Animation": "Ziul",
+        "FastRender": false
+      }
+    },
+    "ClientColor": {
+      "state": false,
+      "keybind": 157,
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "ClientSpoofer": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "CustomClient": "CustomClient"
+      }
+    },
+    "ComboOneHit": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Packets": 200,
+        "SwingMode": "Normal",
+        "OnlyAura": false,
+        "GameBreaking": false
+      }
+    },
+    "Crasher": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Book",
+        "PacketAmount": 500,
+        "BookType": "Plain",
+        "BookMode": "Payload",
+        "BookOnlyOnce": false,
+        "Log4JMode": "Chat",
+        "SlientInventory": false
+      }
+    },
+    "Criticals": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "FLAG",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vulcan",
+        "Delay": 0,
+        "FlagPause": true,
+        "FlagPause-Time": 100,
+        "HurtTime": 10,
+        "CritTiming": "Always",
+        "UseC06Packet": false,
+        "DebugMessage": false,
+        "HoverMode": "AAC4",
+        "Hover-NoFall": true,
+        "Hover-OnlyCombat": true,
+        "MotionMode": "Jump",
+        "NoGround-AutoJump": false,
+        "NoGround-Smart": true,
+        "NoGround-MorePacket": false,
+        "NoGround-PacketAmount": 2
+      }
+    },
+    "Crosshair": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Width": 0.5,
+        "Length": 7.0,
+        "Gap": 5.0,
+        "Dynamic": true,
+        "HitMarker": true
+      }
+    },
+    "CustomClientColor": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Red": 255,
+        "Green": 255,
+        "Blue": 255
+      }
+    },
+    "Damage": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "NCP",
+        "VerusMode": "Damage1",
+        "NCPMode": "Glitch",
+        "CustomDamage-Packet1Clip": 4.0,
+        "CustomDamage-Packet2Clip": -0.2,
+        "CustomDamage-Packet3Clip": 0.5,
+        "Damage": 1,
+        "OnlyGround": true
+      }
+    },
+    "DamageParticle": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "AliveTicks": 20,
+        "Size": 3,
+        "CustomColor": false,
+        "Red": 255,
+        "Green": 255,
+        "Blue": 255
+      }
+    },
+    "Disabler": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Debug": false,
+        "Basic": false,
+        "Boat": false,
+        "C03PacketPlayer": false,
+        "C08PacketPlayerBlockPlacement": false,
+        "FakeLag": false,
+        "Flying": false,
+        "HeirteirAC": false,
+        "HyCraftCrash": false,
+        "Hypixel": false,
+        "LessFlag": false,
+        "NoRotation": false,
+        "OldVerus": false,
+        "PacketInvade": false,
+        "Riding": false,
+        "Spectate": false,
+        "SpectateSpoof": false,
+        "SpectateSpoof2": false,
+        "Universocraft": false,
+        "VerusCombat": false,
+        "VerusFix": false,
+        "VerusSemi": false,
+        "VulcanCombat": false,
+        "VulcanSprint": false,
+        "VulcanStrafe": false,
+        "Basic-CancelC00": true,
+        "Basic-CancelC0F": true,
+        "Basic-CancelC0A": true,
+        "Basic-CancelC0B": true,
+        "Basic-CancelC03": true,
+        "Basic-C03-NoMove": true,
+        "Boat-NoGround": false,
+        "FakeLag-C0FPacket": false,
+        "FakeLag-C00Packet": false,
+        "FakeLag-LagDelay": 0,
+        "FakeLag-LagDuration": 200,
+        "HyCraftCrash-BlockTeams": false,
+        "HyCraftCrash-BlockInvalidPosition": true,
+        "Hypixel-BanWarning": true,
+        "Hypixel-NoC03Packet": true,
+        "Hypixel-Timer1": true,
+        "Hypixel-Timer2": false,
+        "NoRotation-Mode": "ConvertNull",
+        "NoRotation-OffsetAmount": 6.0,
+        "VerusSlientFlagApply": false,
+        "VerusBufferSize": 300,
+        "Verus-RepeatTimes": 1,
+        "Verus-RepeatTimesFighting": 1,
+        "Verus-FlagDelay": 40,
+        "PacketInvade-ModifyC00": true,
+        "PacketInvade-ModifyMode": "Drift",
+        "PacketInvade-ModifyAmount": 128,
+        "PacketInvade-Negative": true,
+        "VerusFix-OmniSprint": true,
+        "VerusFix-BlockPlace": true,
+        "VerusFix-fly4I": true,
+        "VerusSemi-BufferSize": 30,
+        "VulcanDecrease": true,
+        "VulcanDecreaseDelay": 1500,
+        "VulcanDynamicDelay": true,
+        "VulcanMinDelay": 4500,
+        "VulcanMaxDelay": 5500,
+        "VulcanMinBuff": 5,
+        "NoC0BPacket": false,
+        "VulcanStrafe-NoBadPacket": true,
+        "VulcanStrafe-PacketDelay": 6
+      }
+    },
+    "ESP": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Outline",
+        "Outline-Width": 3.0,
+        "ShaderOutline-Radius": 1.35,
+        "ShaderGlow-Radius": 2.3,
+        "CSGO-DirectLine": false,
+        "CSGO-ShowHealth": true,
+        "CSGO-ShowHeldItem": true,
+        "CSGO-ShowName": true,
+        "CSGOOld-Width": 2.0,
+        "ColorMode": "Name",
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "FPSBoost": {
+      "state": true,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "FakeLag": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MinDistance": 2.9,
+        "MaxStartDistance": 3.2,
+        "MaxActiveDistance": 5.0,
+        "Stuck": false,
+        "Time": 200,
+        "MinAttackReleaseRange": 3.2,
+        "OnlyKillAura": true,
+        "OnlyPlayer": true,
+        "ESPMode": "Box"
+      }
+    },
+    "FastBow": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Packets": 20,
+        "Delay": 0
+      }
+    },
+    "FastBreak": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "BreakDamage": 0.8
+      }
+    },
+    "FastMine": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Speed": 1.5
+      }
+    },
+    "FastPlace": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Tick": 0,
+        "BlockOnly": false
+      }
+    },
+    "FastUse": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "DelayedInstant",
+        "Timer": 1.22,
+        "InstantDelay": 14,
+        "CustomDelay": 0,
+        "ViaVersion": false
+      }
+    },
+    "FightBot": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "PathRender": true,
+        "JumpReset": true,
+        "AutoJump": false,
+        "Silent": false,
+        "blockMode": "Manual",
+        "findWay": "Point",
+        "workReach": 10.0,
+        "IgnoreFriend": false
+      }
+    },
+    "Flight": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "FLAG",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "MotionReset": false,
+        "ResetY": false,
+        "RenderTime": false,
+        "Mark": "Off",
+        "FakeDamage": false,
+        "ViewBobbing": false,
+        "ViewBobbingYaw": 0.1,
+        "AAC1.9.10-Speed": 0.3,
+        "AAC3.0.5-Fast": true,
+        "AAC5.2.0-Vanilla-Speed": 2.0,
+        "AAC5.2.0-Vanilla-Smooth": false,
+        "AAC5.2.0-Vanilla-Purse": 7,
+        "AAC5.2.0-Vanilla-PacketMode": "Old",
+        "AAC5.2.0-Vanilla-UseC04": false,
+        "Clip-X": 2.0,
+        "Clip-Y": 2.0,
+        "Clip-Z": 2.0,
+        "Clip-Delay": 500,
+        "Clip-MotionX": 0.0,
+        "Clip-MotionY": 0.0,
+        "Clip-MotionZ": 0.0,
+        "Clip-SpoofGround": false,
+        "Clip-GroundWhenClip": true,
+        "Clip-Timer": 0.7,
+        "Speed": 0.0,
+        "Domcer-Vertical": 0.5,
+        "FunCraft-Timer": 1.0,
+        "Jetpack-Effect": true,
+        "Teleport": false,
+        "Timer": true,
+        "AddSpeed": 0.0,
+        "Matrix1.17--SpoofGround": true,
+        "MatrixBoost-BypassMode": "New",
+        "MatrixBoost-Speed": 2.0,
+        "MatrixBoost-CustomJumpMotion": 0.6,
+        "MatrixBoost-JumpTimer": 0.1,
+        "MatrixBoost-BoostTimer": 1.0,
+        "MatrixClip-BypassMode": "Clip2",
+        "MatrixClip-Clip2-SmartClip": true,
+        "MatrixClip-Custom-ClipDelay": 736,
+        "MatrixClip-Custom-BlinkDelay": 909,
+        "MatrixClip-YClip": 10.0,
+        "MatrixDamage-Mode": "Stable",
+        "MatrixDamage-DamageWarn": true,
+        "MatrixDamage-Timer": 1.0,
+        "MatrixDamage-Custom-BoostSpeed": 0.5,
+        "MatrixDamage-Custom-BoostTicks": 27,
+        "MatrixDamage-Custom-Randomize": true,
+        "MatrixDamage-Custom-RandomAmount": 1,
+        "MatrixDamage-Custom-Strafe": true,
+        "MatrixDamage-MotionReduceOnEnd": true,
+        "MineSecure-Speed": 2.0,
+        "Mineplex-Speed": 1.0,
+        "NCPPacket-Timer": 1.1,
+        "NCPPacket-Speed": 0.28,
+        "NCPSlime-DoTimer": true,
+        "NCPSlime-SwingMode": "Normal",
+        "NewSpartan-Speed": 2.0,
+        "OldHypixel-Boost": true,
+        "OldHypixel-BoostDelay": 1200,
+        "OldHypixel-BoostTimer": 1.0,
+        "OldNCP2-Motion": 0.0,
+        "SpartanFast-Speed": 2.0,
+        "Vanilla-Smooth": false,
+        "Vanilla-Speed": 2.0,
+        "Vanilla-Vertical": 2.0,
+        "Vanilla-KickBypass": false,
+        "Vanilla-KickBypassMode": "Packet",
+        "Vanilla-KickBypass-MotionSpeed": 0.0626,
+        "Vanilla-KeepAlive": false,
+        "Vanilla-NoClip": false,
+        "Vanilla-SpoofGround": false,
+        "VerusBasic-Mode": "Packet1",
+        "VerusBoost-Speed": 1.5,
+        "VerusBoost-BoostMode": "Boost1",
+        "VerusBoost-Boost3-ReDamage": true,
+        "VerusCustom-AirSpeed": 0.5,
+        "VerusCustom-GroundSpeed": 0.42,
+        "VerusCustom-HopDelay": 3,
+        "VerusCustom-OnlyEnableOnGround": true,
+        "VerusJump-Boost": false,
+        "VerusJump-Speed": 2.0,
+        "VerusJump-BoostTime": 500,
+        "VerusJump-MoveBeforeDamage": true,
+        "VerusJump-AirStrafe": true,
+        "CanClip": true,
+        "Vulcan2-Speed": 1.0,
+        "Vulcan3-Timer": 2.0,
+        "VulcanDamage-OnlyDamage": true,
+        "VulcanDamage-SelfDamage": true,
+        "VulcanDamage-InstantDamage": true,
+        "VulcanDamage-Vanilla": false,
+        "VulcanDamage-Timer": 0.05,
+        "ZoneCraft-TimerBoost": false
+      }
+    },
+    "FreeCam": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "RESPAWN",
+      "trigger": "TOGGLE",
+      "values": {
+        "Speed": 0.8,
+        "Fly": true,
+        "NoClip": true,
+        "RecordMotion": true,
+        "C03Spoof": false
+      }
+    },
+    "FreeLook": {
+      "state": false,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "PRESS",
+      "values": {
+        "CameraMode": 0
+      }
+    },
+    "Freeze": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "RESPAWN",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "FullBright": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Gamma"
+      }
+    },
+    "Gapple": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Auto",
+        "HealthPercent": 75.0,
+        "MinDelay": 75,
+        "MaxDelay": 125,
+        "MinRegenSec": 4.6,
+        "OnlyOnGround": false,
+        "WaitRegen": true,
+        "InvCheck": false,
+        "NoAbsorption": true,
+        "Alert": false
+      }
+    },
+    "Glide": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "FLAG",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vulcan2.6.3",
+        "MotionReset": false,
+        "FakeDamage": false,
+        "ViewBobbing": false,
+        "ViewBobbingYaw": 0.1,
+        "Minemora-Mode": "Glide1",
+        "Minemora-Glide2-Tick": 4,
+        "NeruxVace-Ticks": 6
+      }
+    },
+    "Glint": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Custom",
+        "Red": 255,
+        "Green": 0,
+        "Blue": 0
+      }
+    },
+    "GuiClicker": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Delay": 5
+      }
+    },
+    "HUD": {
+      "state": true,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "HUDText": true,
+        ".clientusername (name)": "",
+        "ContainerButton": false,
+        "InventoryParticle": false,
+        "UiEffect": "None",
+        "ColorGuiInGame": 0
+      }
+    },
+    "HackerDetector": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Warning": true,
+        "WarningVL": 30,
+        "WarningMessage": "%player% is using %module% hack!",
+        "AutoReportWhenWarning": false,
+        "ReportCommand": "/report %player% %module%",
+        "Alert": false,
+        "Debug": false
+      }
+    },
+    "HighJump": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Height": 2.0,
+        "Mode": "Vanilla",
+        "OnlyGlassPane": false,
+        "StableMotion": 0.42
+      }
+    },
+    "HitBox": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Max": 3.5,
+        "Min": 3.5
+      }
+    },
+    "HitColor": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "RainBow": false,
+        "HitRed": 255,
+        "HitGreen": 255,
+        "HitBlue": 255,
+        "HitAlpha": 255
+      }
+    },
+    "HitDelayFix": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "HurtCam": {
+      "state": false,
+      "keybind": 0,
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Cancel",
+        "R": 255,
+        "G": 0,
+        "B": 0,
+        "ColorTheme": false,
+        "FPSTime": 1000,
+        "FPSHeight": 25
+      }
+    },
+    "InfiniteAura": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Aura",
+        "Targets": 3,
+        "CPS": 1,
+        "Distance": 30,
+        "MoveDistance": 5.0,
+        "NoRegen": true,
+        "NoLagback": true,
+        "Swing": true,
+        "PathRender": true
+      }
+    },
+    "InvManager": {
+      "state": false,
+      "keybind": 47,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MaxDelay": 263,
+        "MinDelay": 206,
+        "InvOpen": false,
+        "InvSpoof": 0,
+        "NoMove": false,
+        "Hotbar": true,
+        "RandomSlot": false,
+        "Sort": true,
+        "Drop": true,
+        "Armor": true,
+        "NoCombat": false,
+        "ItemDelay": 0,
+        "Swing": true,
+        "NBTGoal": "NONE",
+        "NBTItemNotGarbage": true,
+        "NBTArmorPriority": 0.0,
+        "NBTWeaponPriority": 0.0,
+        "IgnoreVehicles": false,
+        "OnlyPositivePotion": false,
+        "SortSlot-1": "Sword",
+        "SortSlot-2": "Gapple",
+        "SortSlot-3": "Potion",
+        "SortSlot-4": "Pickaxe",
+        "SortSlot-5": "Axe",
+        "SortSlot-6": "None",
+        "SortSlot-7": "Block",
+        "SortSlot-8": "Pearl",
+        "SortSlot-9": "Food"
+      }
+    },
+    "Inventory": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "NoDetectable": false,
+        "Bypass": "None",
+        "Rotate": true,
+        "NoMoveClicks": false,
+        "NoSprint": "None",
+        "CustomSpeed": 1.0
+      }
+    },
+    "ItemESP": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "ItemCount": false,
+        "Mode": "Box",
+        "Outline-Width": 3.0,
+        "R": 0,
+        "G": 255,
+        "B": 0,
+        "ClientTheme": true
+      }
+    },
+    "ItemPhysics": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "Jesus": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "NoJump": false,
+        "JumpMotion": 0.5
+      }
+    },
+    "JumpReset": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "onMouseDown": false
+      }
+    },
+    "KeepSprint": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Motion": 0
+      }
+    },
+    "KillAura": {
+      "state": false,
+      "keybind": 19,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range": 3.58,
+        "ThroughWallsRange": 0.94,
+        "SwingRange": 3.58,
+        "DiscoverRange": 3.58,
+        "Fov": false,
+        "FOV-Disttance": 180.0,
+        "CPS": "",
+        "1.9CombatCheck": false,
+        "CPSReduce": false,
+        "Add-CPS": 1,
+        "MaxCPS": 12,
+        "MinCPS": 8,
+        "TargetMode": "Single",
+        "Priority": "Health",
+        "SwitchDelay": 15,
+        "LimitedMultiTargets": 0,
+        "LimitUse": "",
+        "BlinkCheck": true,
+        "NoScaffold": true,
+        "NoFly": false,
+        "OnSwording": false,
+        "Bypass": "",
+        "Swing": "Normal",
+        "AttackTiming": "All",
+        "FixMovement": "Silent",
+        "AlwaysAttack": true,
+        "AutoBlock": "Vanilla",
+        "Hypixel-Debug": false,
+        "LegitBlock": false,
+        "DamageTicks": 10,
+        "AutoBlockRange": 5.0,
+        "InteractAutoBlock": false,
+        "Rotation": "",
+        "RotationMode": "Smooth",
+        "SilentRotation": true,
+        "MaxTurnSpeed": 90,
+        "MinTurnSpeed": 90,
+        "GDC": false,
+        "RotationReverse": false,
+        "RotationReverseTick": 5,
+        "KeepDirection": true,
+        "KeepDirectionTick": 15,
+        "RandomCenter": false,
+        "RandomRange": 0.0,
+        "MoreBypass": "",
+        "RayCast": true,
+        "RaycastOnlyTarget": false,
+        "Predict": true,
+        "MaxPredictSize": 1.0,
+        "MinPredictSize": 1.0
+      }
+    },
+    "KillEffect": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Lighting",
+        "Times": 1,
+        "LightingSound": true
+      }
+    },
+    "KillSay": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "RawWords",
+        "WaterMark": true
+      }
+    },
+    "LeftClicker": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Click-Mode": "Normal",
+        "Max-CPS": 8,
+        "Min-CPS": 5,
+        "LeftSwordOnly": false
+      }
+    },
+    "LongJump": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "FLAG",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "NCP",
+        "MotionReset": true,
+        "AutoJump": true,
+        "AutoDisable": true,
+        "TpDistance": 3.0,
+        "DamageVerus-Boost": 4.25,
+        "DamageVerus-MotionY": 0.42,
+        "SpoofItem": false,
+        "FireBall-Mode": "Hypixel",
+        "FireBall-StrafeBoost": 2.0,
+        "FireBall-StrafeMotionY": 0.42,
+        "FireBall-HypixelBoost": 1.83,
+        "MatrixHurt-BoostSpeed": 0.416,
+        "MatrixHurt-Ticks": 10,
+        "NCP-Boost": 4.25,
+        "NCPDamage-Boost": 4.25,
+        "NCPDamage-DamageInstant": false,
+        "OldMatrixWater-Horizon": 1.0,
+        "OldMatrixWater-MotionY": 0.42,
+        "RedeSky-JumpMovement": 0.13,
+        "RedeSky-MotionY": 0.81,
+        "RedeSky-MovementReducer": true,
+        "RedeSky-ReduceMovement": 0.08,
+        "RedeSky-MotionYReducer": true,
+        "RedeSky-ReduceYMotion": 0.15,
+        "RedeSky-Timer": 0.3,
+        "RedeSky2-AirSpeed": 0.1,
+        "RedeSky2-MinAirSpeed": 0.08,
+        "RedeSky2-ReduceAirSpeed": 0.16,
+        "RedeSky2-AirSpeedReducer": true,
+        "RedeSky2-YMotion": 0.08,
+        "RedeSky2-MinYMotion": 0.04,
+        "RedeSky2-ReduceYMotion": 0.15,
+        "RedeSky2-YMotionReducer": true,
+        "RedeSky3-JumpTime": 500,
+        "RedeSky3-Boost": 1.0,
+        "RedeSky3-Height": 1.0,
+        "RedeSky3-Timer": 1.0
+      }
+    },
+    "MCF": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "MoreParticles": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Times": 1,
+        "FakeSharp": false
+      }
+    },
+    "MovementFix": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Silent": true
+      }
+    },
+    "NameTags": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Liquid",
+        "Health": true,
+        "Ping": true,
+        "Bar": true,
+        "Distance": false,
+        "Armor": true,
+        "Enchant": true,
+        "Potions": true,
+        "ClearNames": true,
+        "Font": {
+          "fontName": "Roboto Medium",
+          "fontSize": 40
+        },
+        "Border": true,
+        "Shadow": true,
+        "Friend": true,
+        "JelloHPColor": true,
+        "JelloAlpha": 170,
+        "Scale": 1.0,
+        "OnlyTarget": false,
+        "TanslateY": 0.55,
+        "Background-R": 0,
+        "Background-G": 0,
+        "Background-B": 0,
+        "Background-Alpha": 0,
+        "Border-R": 0,
+        "Border-G": 0,
+        "Border-B": 0,
+        "Border-Alpha": 0
+      }
+    },
+    "No0.03": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "NoFall": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "FLAG",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "NoVoid": false,
+        "Blink-FallDistance": 9,
+        "Blink-ShowText": false,
+        "Blink-ColorTheme": false,
+        "Blink-limitUse": true,
+        "Blink-NoMouse": false,
+        "SilentRotation": false,
+        "TurnSpeed": 10,
+        "MLG-MinMLGHeight": 5.0,
+        "SafeNoFall": true,
+        "MotionFlag-MotionSpeed": -0.01,
+        "Phase-PhaseOffset": 1
+      }
+    },
+    "NoFriends": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "NoJumpDelay": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "NoPitchLimit": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "NoRender": {
+      "state": false,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Confusion": true,
+        "Pumpkin": true,
+        "Fire": true,
+        "Scoreboard": false,
+        "Boss-Health": false,
+        "Title": false
+      }
+    },
+    "NoRotate": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "NoLoading": true,
+        "SilentConfirm": true,
+        "SilentConfirmSetRotation": true
+      }
+    },
+    "NoSlow": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "PacketMode": "NCP",
+        "OnlyGround": false,
+        "OnlyMove": false,
+        "Blocking": true,
+        "BlockMultiplier": 1.0,
+        "Consume": true,
+        "ConsumeMultiplier": 1.0,
+        "Bow": false,
+        "BowMultiplier": 1.0,
+        "CustomOnGround": false,
+        "CustomDelay": 60,
+        "SoulSand": false,
+        "AAC4-C07": true,
+        "AAC4-C08": true,
+        "AAC4-OnGround": true,
+        "Teleport": false,
+        "TeleportMode": "Vanilla",
+        "TeleportNoApply": false,
+        "Teleport-CustomSpeed": 0.13,
+        "Teleport-CustomY": false,
+        "Teleport-DecreasePercent": 0.13
+      }
+    },
+    "NoSlowBreak": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Air": true,
+        "Water": false
+      }
+    },
+    "NoWeb": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "None",
+        "HorizonSpeed": 0.1
+      }
+    },
+    "Nuker": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Radius": 5.2,
+        "ThroughWalls": false,
+        "Priority": "Distance",
+        "Rotations": true,
+        "Layer": false,
+        "HitDelay": 4,
+        "Nuke": 1,
+        "NukeDelay": 1
+      }
+    },
+    "Parkour": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "Particles": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Amount": 10,
+        "Physics": true
+      }
+    },
+    "Phase": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "Debug": false,
+        "Automatic-Offset": 4.0,
+        "Automatic-PhaseDelay": 1000,
+        "Automatic-FreezeMotion": true,
+        "MatrixBlink-timer": 0.3,
+        "MatrixBlink-initialClipDistance": 0.1,
+        "MatrixBlink-showFlag": true
+      }
+    },
+    "PingSpoof": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MaxDelay": 1000,
+        "MinDelay": 500,
+        "PacketLoss": 0.0
+      }
+    },
+    "PlayerSize": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Size": 0.05
+      }
+    },
+    "Projectiles": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "DynamicBowPower": true,
+        "Text-R": 255,
+        "Text-G": 255,
+        "Text-B": 255
+      }
+    },
+    "Radar": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "scale": 2.0,
+        "x": 10.0,
+        "y": 10.0,
+        "size": 10.0
+      }
+    },
+    "Reach": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Max": 3.2,
+        "Min": 3.0
+      }
+    },
+    "Regen": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Vanilla",
+        "Health": 18,
+        "Delay": 0,
+        "Food": 18,
+        "Speed": 100,
+        "NoAir": false,
+        "PotionEffect": false
+      }
+    },
+    "RightClicker": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Max-CPS": 5,
+        "BlocksOnly": false,
+        "OnlyEggSnowBall": false
+      }
+    },
+    "Rotation": {
+      "state": true,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "RotationMode": "Smooth"
+      }
+    },
+    "SafeWalk": {
+      "state": false,
+      "keybind": 33,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Shift": true,
+        "OnlyGround": false,
+        "Block only": true,
+        "MouseDown Only": false,
+        "NoPotionSpeed": false,
+        "OnHoldShift": true,
+        "Shift-Max": 3,
+        "Shift-Min": 2,
+        "Pitch": false,
+        "Pitch-Max": 0,
+        "Pitch-Min": 0
+      }
+    },
+    "Scaffold": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Rotations": "Normal",
+        "StaticRotation": false,
+        "TowerMode": "None",
+        "PlaceTiming": "Pre",
+        "AutoBlock": "Switch",
+        "BiggestStack": false,
+        "Sprint": "Normal",
+        "BridgeMode": "Normal",
+        "TellyTicks": 0,
+        "SmartDelay-Telly": false,
+        "SameY-OnlySpeed": false,
+        "Andromeda-Jump": false,
+        "StrafeFix": false,
+        "Motion": 1.0,
+        "Swing": false,
+        "Search": true,
+        "Downward": false,
+        "SafeWalk": false,
+        "Zitter": false,
+        "MinRotationSpeed": 90,
+        "MaxRotationSpeed": 90,
+        "ExpandLength": 1,
+        "OmniDirectionalExpand": false,
+        "Timer": 1.0,
+        "TowerTimer": 1.0,
+        "Eagle": "Off",
+        "BlocksToEagle": 0,
+        "EagleEdgeDistance": 0.0,
+        "HitableCheck": "Simple",
+        "Counter": "OFF"
+      }
+    },
+    "Spammer": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MaxDelay": 1000,
+        "MinDelay": 500,
+        "Mode": "Single",
+        "EndingRandomChars": 5,
+        "Message": "Buy %r Minecraft %r Legit %r and %r stop %r using %r cracked %r servers %r%r",
+        "InsultMessage": "[%s] %w [%s]"
+      }
+    },
+    "Speed": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "NCP",
+        "NoWater": true,
+        "Debug": false,
+        "DamageBoost": false,
+        "CustomSpeed": 1.6,
+        "CustomDoLaunchSpeed": true,
+        "CustomLaunchSpeed": 1.6,
+        "CustomLaunchMoveBeforeJump": false,
+        "CustomDoMinimumSpeed": true,
+        "CustomMinimumSpeed": 0.25,
+        "CustomAddYMotion": 0.0,
+        "CustomDoModifyJumpY": true,
+        "CustomY": 0.42,
+        "CustomUpTimer": 1.0,
+        "CustomJumpTimer": 1.25,
+        "CustomDownTimer": 1.0,
+        "CustomUpAirSpeed": 2.03,
+        "CustomDownAirSpeed": 2.01,
+        "CustomStrafe": false,
+        "PlusBoostMode": "Add",
+        "PlusMultiplyAmount": 1.1,
+        "CustomGroundStay": 0,
+        "CustomGroundResetXZ": false,
+        "CustomResetXZ": false,
+        "CustomResetY": false,
+        "CustomDoJump": true,
+        "CustomPressSpaceKeyOnGround": true,
+        "CustomPressSpaceKeyInAir": false,
+        "CustomUsePreMotion": true,
+        "HurtTime": 0,
+        "Speed": 0.4,
+        "Matrix6.6.1-VelocBoost": true,
+        "Matrix6.6.1-TimerBoost": false,
+        "Matrix6.6.1-UsePreMotion": false,
+        "Abuse": false,
+        "NCP-DamageBoost": false,
+        "NCP-Timer": 1.088,
+        "Normal-YMotion": 0.0,
+        "Normal-Speed": 0.0,
+        "Normal-Timer": 1.0,
+        "Boost": 0.0,
+        "VerusMode": "Normal",
+        "Verus-TimerBoost": true,
+        "VulcanGround-GroundBoost": true,
+        "VulcanGround-BoostDelay": 8,
+        "Warning: ": "",
+        "Vulcan Strafe": "",
+        "Disabler Needed": ""
+      }
+    },
+    "Spider": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Collide",
+        "Motion": 0.42
+      }
+    },
+    "Sprint": {
+      "state": true,
+      "keybind": 0,
+      "array": false,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "ShowText": false,
+        "Down": false,
+        "Hungry": true,
+        "Sneak": false,
+        "Collide": false,
+        "JumpDirections": false,
+        "AllDirections": true,
+        "AllDirectionsBypass": "Spoof"
+      }
+    },
+    "StaffChecker": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Server": "BlocksMC",
+        "Notification": true,
+        "SendChatMessage": false,
+        "Message": "%staff% was detected as a staff member!",
+        "CustomURL": "https://raw.githubusercontent.com/fdpweb/fdpweb.github.io/main/test",
+        "Leave": true,
+        "LeaveCommand": "/hub"
+      }
+    },
+    "Stealer": {
+      "state": false,
+      "keybind": 47,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MaxDelay": 141,
+        "MinDelay": 110,
+        "ChestOpenDelay": 300,
+        "TakeRandomized": true,
+        "OnlyItems": false,
+        "NoCompass": false,
+        "AutoClose": true,
+        "FreeLook": false,
+        "Silent": true,
+        "Title": false,
+        "AutoCloseMaxDelay": 0,
+        "AutoCloseMinDelay": 0,
+        "CloseOnFull": true,
+        "ChestTitle": false,
+        "Aura": false,
+        "ThroughWalls": true,
+        "Range": 5.0,
+        "Delay": 100,
+        "Swing": "Normal",
+        "Rotations": true,
+        "DiscoverDelay": false,
+        "DiscoverDelayValue": 200,
+        "OnlyOnGround": true,
+        "NotOpened": false,
+        "NoCombating": true
+      }
+    },
+    "Step": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "NCP",
+        "Height": 1.0,
+        "JumpMotion": 0.42,
+        "Delay": 0,
+        "Timer": 1.0,
+        "UseDynamicTimer": false
+      }
+    },
+    "StorageESP": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Outline",
+        "Outline-Width": 3.0,
+        "Chest": true,
+        "EnderChest": true,
+        "Furnace": true,
+        "Dispenser": true,
+        "Hopper": true
+      }
+    },
+    "Strafe": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Strength": 0.5,
+        "NoMoveStop": false,
+        "OnGroundStrafe": false,
+        "AllDirectionsJump": false
+      }
+    },
+    "StreamerMode": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "SensorPlayer": false
+      }
+    },
+    "SuperKnockback": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "HurtTime": 10,
+        "Mode": "DelayPacket",
+        "OnlyMove": false,
+        "OnlyGround": false,
+        "Delay": 0
+      }
+    },
+    "SuperheroFX": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "Target": {
+      "state": false,
+      "keybind": 0,
+      "trigger": "TOGGLE",
+      "values": {
+        "Player": true,
+        "Animal": false,
+        "Mob": true,
+        "Invisible": false,
+        "Dead": false,
+        "NoFriend": false
+      }
+    },
+    "TargetStrafe": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "ThirdPersonView": false,
+        "RenderMode": "Polygon",
+        "LineWidth": 1.0,
+        "RadiusMode": "Normal",
+        "Radius": 0.5,
+        "OnlyOnGround": false,
+        "HoldSpace": false,
+        "OnlySpeed": true,
+        "OnlyFlight": true
+      }
+    },
+    "Teleport": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "IgnoreNoCollision": true,
+        "Mode": "Tp",
+        "Button": "Middle",
+        "NeedSneak": true
+      }
+    },
+    "Timer": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "RESPAWN",
+      "trigger": "TOGGLE",
+      "values": {
+        "Speed": 2.0,
+        "OnlyMove": true,
+        "OnlyStrafe": false
+      }
+    },
+    "TimerRange": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Range-Start": 3.5,
+        "Range-Stop": 3.4,
+        "Timer": 1.5,
+        "OnlyKillaura": false
+      }
+    },
+    "Tracers": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Thickness": 2.0,
+        "Alpha": 150,
+        "PlayerHeight": true,
+        "EntityHeight": true
+      }
+    },
+    "TrueSight": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Barriers": true,
+        "Entities": true
+      }
+    },
+    "Velocity": {
+      "state": true,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Standard",
+        "Horizontal": 0.0,
+        "Vertical": 0.0,
+        "Chance": 100,
+        "StandardTag": false,
+        "OnlyGround": false,
+        "OnlyCombat": false,
+        "OnlyMove": false,
+        "noFire": false
+      }
+    },
+    "ViaVersionFix": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {}
+    },
+    "ViewBobing": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "MiniViewBobing": false,
+        "BobChanger": "Low",
+        "BobCustom": 0.0
+      }
+    },
+    "WorldTime": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "CustomTime": 1,
+        "ArrowButton": false
+      }
+    },
+    "WorldWeather": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "NONE",
+      "trigger": "TOGGLE",
+      "values": {
+        "Mode": "Clear"
+      }
+    },
+    "XRay": {
+      "state": false,
+      "keybind": 0,
+      "array": true,
+      "autodisable": "RESPAWN",
+      "trigger": "TOGGLE",
+      "values": {}
+    }
+  },
+  "macros": {
+    "macros": []
+  }
+}
