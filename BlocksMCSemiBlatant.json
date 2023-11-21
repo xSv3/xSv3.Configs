@@ -1156,7 +1156,7 @@
       }
     },
     "InvManager": {
-      "state": false,
+      "state": true,
       "keybind": 47,
       "array": true,
       "autodisable": "NONE",
@@ -1560,12 +1560,12 @@
       "autodisable": "NONE",
       "trigger": "TOGGLE",
       "values": {
-        "PacketMode": "NCP",
+        "PacketMode": "Vanilla",
         "OnlyGround": false,
         "OnlyMove": false,
         "Blocking": true,
         "BlockMultiplier": 1.0,
-        "Consume": true,
+        "Consume": false,
         "ConsumeMultiplier": 1.0,
         "Bow": false,
         "BowMultiplier": 1.0,
@@ -1931,7 +1931,7 @@
       }
     },
     "Stealer": {
-      "state": false,
+      "state": true,
       "keybind": 47,
       "array": true,
       "autodisable": "NONE",
